@@ -70,8 +70,8 @@ p {
  /* HEADER */
  header {
    color:#FFFFFF;
-   background: #479277;
-   background-image: linear-gradient(206deg, #2A5744 0%, #479277 94%);
+   background: #2A5744;
+   background-image: linear-gradient(206deg, #479277 0%, #2A5744 94%);
  }
  header nav {
    padding:1em 0;
@@ -100,5 +100,5 @@ p {
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
-   color:#34495E;
+   color:#2A5744;
  }
