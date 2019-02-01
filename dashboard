@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+ <html lang="en-us">
+ <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+ 
+   <title>Dashboard | Blocbox</title>
+ 
+   <!-- Google Fonts -->
+
+   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+   <!-- CSS -->
+   
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <link rel="stylesheet" href="css/fa.css">
+   <link rel="stylesheet" href="css/fontawesome.css">
+   <link rel="stylesheet" href="css/all.css">
+ 
+ </head>
