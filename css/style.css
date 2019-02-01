@@ -299,7 +299,7 @@ p {
    background-image: linear-gradient(to top,
       #2A5744 0%, #2A5744 50%, #2A5744 50%, #2A5744 100%);
    color: #FFFFFF;
-   height: 150px;
+   height: 75px;
    position: relative;
    overflow: hidden;
    z-index: 0;
