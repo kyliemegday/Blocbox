@@ -138,3 +138,44 @@ p {
    border: 2px solid #FFD162;
    box-shadow: 0px 6px 0px 0px #B59852;
  }
+  /* BENEFITS */
+ .benefits {
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+   color:#3498DB;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits h2 {
+   color:#3498DB;
+ }
+ /* PRICING */
+ .pricing {
+   background: #2A5744 url("../images/background.png") top center no-repeat;
+   background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #479277 0%, #2A5744 94%);
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
+ .pricing h2, .pricing p {
+   color:#FFFFFF;
+ }
+ .pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+ }
+ .pricing ul li {
+   list-style-type: none;
+ }
