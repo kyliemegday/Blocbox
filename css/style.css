@@ -331,7 +331,7 @@ p {
      background-color: #2A5744;
      background-image: linear-gradient(to left,
         #2A5744 0%, #2A5744 33.33337%, #2A5744 33.33337%, #2A5744 100%);
-     height: 100px;
+     height: 65px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
@@ -341,7 +341,7 @@ p {
      background-color: #479277;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: .5em .5 0em .5em;
    }
  }
 
