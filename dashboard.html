@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
    <link rel="stylesheet" href="css/all.css">
    <link rel="stylesheet" href="css/dropit.css">
+
  </head>
 <body class="dashboard">
      <!-- RESPONSIVE NAV -->
@@ -44,7 +45,13 @@
       <div class="settings">
          <img src="images\kylie-day.JPG" height="65px">
          <p>Kylie Day</p>
-         <a href="#"><i class="fa fa-cog"></i></a>
+         <div class="dropup"><i class="fa fa-cog"></i></a>
+		    <div class="dropup-content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+  			</div>
+	    </div>
       </div>
    </nav>
 <main role="main">
@@ -131,6 +138,10 @@
    <script type="text/javascript">
      $(".menu").dropit();
      $( "#menu" ).click(function() {
+        $("#left-nav").toggleClass("open", 200);
+     });
+          $(".settingsmenu").dropit();
+     $( "#settingsmenu" ).click(function() {
         $("#left-nav").toggleClass("open", 200);
      });
    </script>
